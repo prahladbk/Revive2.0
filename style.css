@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #03323C;
+    color: #ffff;
+    
+}
+a{
+    text-decoration: none;
+}
+header,.cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 35px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+.dis{
+    font-size: 25px;
+}
+.login{
+    margin-right: 20px;
+}
+.head-left{
+    width: 50%;
+    padding-top: 35px;
+    padding-right: 60px;
+    margin-left: 20px;
+}
+.shelf{
+    margin-right: 0;
+    width: 700px;
+    /* height: 700px; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discovery{
+    font-weight: bold;
+}
+.arr{
+    margin: auto;
+}
+.li{
+    
+    top: 500px;
+    height: 20px;
+    border: #0E7C83;
+    background-color: #0E7C83;
+
+}
+h1{
+    font-size: 75px;
+}
+h2{
+    font-size: 50px;
+}
+.top-container{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.bt{
+    margin: 60px auto;
+}
+.btn{
+    justify-content: center;
+    margin-top: 60px;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 13px;
+    border-color: #F05D2A;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #F05D2A;
+}
+.right-in{
+    display: flex;
+    flex-direction: column;
+    color: #03323C;
+    background-color: #F1F9B2;
+    margin-top: 150px;
+    border-radius: 20px;
+    overflow: auto;
+    height: 300px;
+    text-align: center;
+    width: 550px;
+    height: 500px;
+
+}
+.line{
+    border-color: #095860;
+    background-color: #095860;
+    height: 2px;
+}
+.bit{
+    margin-left: 200px;
+    width: 100px;
+    align-items: center;
+}
+.cont{
+    height: 700px;
+}
+.le{
+    padding-top: 150px;
+    padding-left: -10px;
+}
+.hed{
+    padding: 10px;
+    color: #03323C;
+    background-color: #F1F9B2;
+}
+.reviews{
+    padding: 50px 50px;
+}
+.u{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.uio{
+    font-size: large;
+    align-items: center;
+}
+.silent{
+    margin: 20px;
+    border-radius: 20px;
+    width: 300px;
+    background-color: #17505D;
+    height: 370px;
+}
+.labe{
+    border-radius: 20px;
+    height: 300px;
+    width: 270px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.rat{
+    padding-left: 15px;
+    background-color: #17505D;
+}
+.read{
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 120px;
+    background-color: #03323C;
+    margin-bottom: 5px;
+}
+.rating{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pg4{
+    width: 50%;
+    height: 400px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #06343D;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 20px;
+}
+input[type="text"], textarea {
+    border: none;
+    background-color : #17505D; 
+    padding: 10px;
+    border-radius: 10px;
+    color: #94AEB4;
+  
+  }
+  input, select, textarea{
+    color: #94AEB4;
+}
+.ll{
+    font-weight: bold;
+    color: #94AEB4;
+}
+.uploa{
+    border-radius: 10px;
+    padding: 10px;
+}
+.pg5{
+    width: 50%;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 200px auto 20px;
+    background-color: #013A47;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.pg5>p{
+    color: #809CA3;
+    padding: 0 90px;
+    background-color: #013A47;
+}
+.pg5>h2{
+    background-color: #013A47;
+}
+.pg5>img{
+    position: absolute;
+    top: 3000px;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.spn{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #081F24;
+    padding: 20px;
+    margin: 10px 50px 30px 50px;
+    border-radius: 60px;
+}
+footer>p{
+    background-color: #081F24;
+}
+.sideimg{
+    right: 0px;
+    position: absolute;
+    top: 2700px;
+    width: 100px;
+}
+.circle{
+    z-index: 1;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px;
+    background-color: #081F24;
+    border-radius: 50%;
+}
